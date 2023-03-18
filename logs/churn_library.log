@@ -1,0 +1,25 @@
+2023-03-18 19:11:07,695 - root - INFO - Testing import_data: SUCCESS
+2023-03-18 19:11:07,696 - root - INFO - Testing import_data: Dataframe free of Unnamed columns
+2023-03-18 19:11:07,702 - root - INFO - Testing import_data: Dataframe free of null values
+2023-03-18 19:11:09,327 - root - INFO - Testing perform_eda: SUCCESS
+2023-03-18 19:11:09,328 - root - INFO - Customer_Churn.jpg plot has been created
+2023-03-18 19:11:09,328 - root - INFO - Customer_Age_Distribution.jpg plot has been created
+2023-03-18 19:11:09,328 - root - INFO - Total_Transaction_Density.jpg plot has been created
+2023-03-18 19:11:09,328 - root - INFO - Marital_Status_Distribution.jpg plot has been created
+2023-03-18 19:11:09,328 - root - INFO - Heatmap.jpg plot has been created
+2023-03-18 19:11:09,328 - root - INFO - High_positive_correlation_bivariate_plot.jpg plot has been created
+2023-03-18 19:11:09,368 - root - INFO - Testing cat_quant_colums: SUCCESS
+2023-03-18 19:11:09,368 - root - INFO - All categorical variables match with type
+2023-03-18 19:11:09,368 - root - INFO - All numerical variables match with type
+2023-03-18 19:11:09,660 - root - INFO - Testing encoder_helper: SUCCESS
+2023-03-18 19:11:09,660 - root - INFO - All categorical variables have been encoded
+2023-03-18 19:11:09,661 - root - INFO - All numerical variables exist in the new encoded dataframe
+2023-03-18 19:11:09,956 - root - INFO - Testing test_perform_feature_engineering: SUCCESS
+2023-03-18 19:11:09,956 - root - INFO - Churn is only the target variable and does not exist in dependent datasets
+2023-03-18 19:11:09,956 - root - INFO - The train test split is done at 30%
+2023-03-18 19:16:38,007 - root - INFO - Testing train_models: SUCCESS
+2023-03-18 19:16:38,007 - root - INFO - Logistec regression and random forest models have been created
+2023-03-18 19:16:38,007 - root - INFO - Logistec regression and random forest classification reports have been created
+2023-03-18 19:16:38,007 - root - INFO - Explainable_variables has been created
+2023-03-18 19:16:38,007 - root - INFO - Feature_importance_plot has been created
+2023-03-18 19:16:38,007 - root - INFO - Roc_curve_plot has been created

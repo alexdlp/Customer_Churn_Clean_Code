@@ -4,8 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+shap = "*"
+autopep8 = "*"
+seaborn = "*"
+pytest = "*"
+pylint = "*"
+scikit-learn = "*"
+ipywidgets = "*"
+scikit-plot = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.10"
